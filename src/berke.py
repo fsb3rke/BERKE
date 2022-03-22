@@ -5,7 +5,7 @@ key = "BERK"
 u_keywords = [x.upper() for x in key] # + ASCII
 l_keywords = [x.lower() for x in key] # - ASCII
 
-file = open(argv["1"], "r").read().split("\n")
+file = open(argv[1], "r").read().split("\n")
 
 commentLines = [] # this is comment line indexes
 codeLines = [] # this is code line indexes
