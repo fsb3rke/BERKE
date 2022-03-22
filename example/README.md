@@ -2,7 +2,7 @@
 
 ## INTERPRETER COMMAND
 ```bash
-python berke.py
+python berke.py hey.py
 ```
 
 ## OUTPUT
