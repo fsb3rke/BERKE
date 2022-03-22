@@ -1,6 +1,6 @@
 # BERKE
 
-## INTERPRETER COMMAND
+## INTERPRETER COMMAND (without debug mode)
 ```bash
 python berke.py hey.br
 ```
@@ -14,9 +14,7 @@ python berke.py hey.br
 > E
 ```
 
-OR YOU CAN USE DEBUG MODE
-
-## INTERPRETER COMMAND
+## INTERPRETER COMMAND (with debug mode)
 ```bash
 python berke.py hey.br -d
 ```
