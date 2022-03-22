@@ -5,6 +5,15 @@ key = "BERK"
 u_keywords = [x.upper() for x in key] # + ASCII
 l_keywords = [x.lower() for x in key] # - ASCII
 
+# check debug mode
+debugMod = False
+try:
+    if argv[2] != None:
+        if argv[2] == "-d":
+            debugMod = True
+except:
+    debugMod = False
+
 file = open(argv[1], "r").read().split("\n")
 
 commentLines = [] # this is comment line indexes
@@ -36,7 +45,8 @@ for i in codeLineCONTENT:
             .replace("r", "-3")\
             .replace("k", "-65")
     
-    #print(eval(i))
+    if debugMod: 
+        print(eval(i))
     asd = eval(i)
     print(chr(asd))
     #print(i)
