@@ -4,7 +4,7 @@ Simple Esoteric Ascii Language
 
 ## INTERPRETER COMMAND
 ```bash
-python berke.py
+python berke.py brFileName
 ```
 
 ## License
